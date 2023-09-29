@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>GP Functions</title>
+</head>
+<body>
+    <h1> Functions Guided Project</h1>
+</body>
+
+<script>
+    console.log ("Hey Everyone!")
+
+    let car = "Camry"
+    function printCar (){
+        console.log (car)
+    }
+    printCar ()
+
+    function fail (){
+        let plane = "Wildfire"
+    }
+    // console.log (plane)
+
+    let boat = "Prince Samir"
+    function printBoat (){
+      let boat = "Zeus"
+      console.log (boat)
+    }
+    printBoat()
+
+
+
+    function validatePostalCode (code) {
+        if (code > 0 && code < 10000) {
+            return "The code is OK"
+        }
+        return "There's an issue with the code"
+    }
+    console.log (validatePostalCode(3330))
+    let returnedVal = validatePostalCode(-30)
+    console.log (returnedVal)
+
+    function sum (a, b) {
+        console.log ('arg a -->', a)
+        console.log ('arg b -->', b)
+        const result = a + b
+        console.log ('result -->', result)
+        return result
+    }
+    sum (23, 33)
+    
+    function report (points, levels) {
+        let status
+        if (points > 95) {
+            status = "Wonderful job!"
+        } else if (points > 60) {
+            status = "Still in it!" 
+        } else {
+            status = "In bad shape"
+        }
+        let str =  `I'm on level ${level} and I am ${status}!`
+        return str
+    }
+   // report (4, 9) return "Im in bad shape but I am in level 9"
+
+   // less than 18, 
+   let age = 20
+   
+
+</script>
+</html>
